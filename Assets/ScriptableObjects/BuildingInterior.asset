@@ -50,6 +50,24 @@ MonoBehaviour:
     sidePrefabIndex: 1
     width: 4
     offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window-open
+    prefab: {fileID: 1214504550001186497, guid: bc14cf260cd3c4ad8b94490c84276ec9, type: 3}
+    alignment: 2
+    sidePrefabIndex: 1
+    width: 2
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window-wide-open
+    prefab: {fileID: 1845770354124728627, guid: 495ff49dc39714a54aa85a0ab7a762bf, type: 3}
+    alignment: 2
+    sidePrefabIndex: 1
+    width: 4
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window-open-repeat
+    prefab: {fileID: 1214504550001186497, guid: bc14cf260cd3c4ad8b94490c84276ec9, type: 3}
+    alignment: 1
+    sidePrefabIndex: 1
+    width: 2
+    offsetRotation: {x: 0, y: 0, z: 0}
   PointPrefabs:
   - name: empty
     prefab: {fileID: 0}
