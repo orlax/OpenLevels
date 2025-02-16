@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 4364764576709841459}
   - component: {fileID: 6609217614466897640}
   - component: {fileID: 1416271387105946911}
+  - component: {fileID: 5698605405170231544}
   m_Layer: 0
   m_Name: FPC
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -126,6 +127,20 @@ MonoBehaviour:
   headBobFrequency: 15
   headBobAmplitude: 0.07
   headBobRunningMultiplier: 1.5
+--- !u!114 &5698605405170231544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575017214398868524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb461be2b87d149eaa8fbcf03aeaa800, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 6609217614466897640}
+  isBusy: 0
 --- !u!1 &4294906098839140698
 GameObject:
   m_ObjectHideFlags: 0
