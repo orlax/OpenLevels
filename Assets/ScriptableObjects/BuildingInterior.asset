@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b5c746068fb04e7bb2884939f71f629, type: 3}
+  m_Name: BuildingInterior
+  m_EditorClassIdentifier: 
+  FloorHeight: 0
+  LinePrefabs:
+  - name: empty
+    prefab: {fileID: 0}
+    alignment: 0
+    sidePrefabIndex: 0
+    width: 1
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall
+    prefab: {fileID: 7815920131439496108, guid: 0837d19d421244f71be1b5f014900e1c, type: 3}
+    alignment: 0
+    sidePrefabIndex: 0
+    width: 2
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window
+    prefab: {fileID: 1703453907553208817, guid: 5b68f37fd73f2418f99492d9e625a04c, type: 3}
+    alignment: 1
+    sidePrefabIndex: 0
+    width: 2
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: door
+    prefab: {fileID: 9170894038110895959, guid: 97ebb6806bd514f258decf612f147705, type: 3}
+    alignment: 2
+    sidePrefabIndex: 1
+    width: 3
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window-wide-square
+    prefab: {fileID: 2421570042066346632, guid: cbee5cad57ff84572a385e0c10bfc5b6, type: 3}
+    alignment: 2
+    sidePrefabIndex: 1
+    width: 4
+    offsetRotation: {x: 0, y: 0, z: 0}
+  - name: wall-window-wide-round
+    prefab: {fileID: 6424524093488187090, guid: 96e847c6dfc774b7bba773a58f4e79cd, type: 3}
+    alignment: 2
+    sidePrefabIndex: 1
+    width: 4
+    offsetRotation: {x: 0, y: 0, z: 0}
+  PointPrefabs:
+  - name: empty
+    prefab: {fileID: 0}
+  - name: column
+    prefab: {fileID: 412760292170567356, guid: 984ee2adeeb5b49d283d3a11e3bdb93f, type: 3}
