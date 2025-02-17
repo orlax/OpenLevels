@@ -19,6 +19,17 @@ public class GroupSelection
         }
         center /= selectedObjects.Length;
 
+        //make the y position of the group the same as the lowest object
+        float lowestY = Mathf.Infinity;
+        foreach (GameObject obj in selectedObjects)
+        {
+            if (obj.transform.position.y < lowestY)
+            {
+                lowestY = obj.transform.position.y;
+            }
+        }
+        center.y = lowestY;
+
         // Create a new empty GameObject at the center
         GameObject group = new GameObject("Group");
         group.transform.position = center;
